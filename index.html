@@ -9,13 +9,13 @@
 </head>
 <body>
     <!-- wrapper -->
-    <div class="wrapper">
+    <div id="wrapper">
         <!-- header -->
         <div class="header">
             <div id="lives">
 
             </div>
-            
+
             <div id="score">0</div>
             <div id="fps"></div>
         </div>
@@ -36,7 +36,8 @@
                 <div class="checkbox-div">
                     Music <input type="checkbox" id="music-checkbox" checked/>
                 </div>
-    
+            </div>
+
             <!-- instructions -->
             <div id="instructions">
                 <div class="keys">
@@ -61,9 +62,17 @@
                 </div>
             </div>
         </div>
+
     </div>
 
-    
+    <!-- javascript -->
+    <script src="./js/timer.js"></script>
+    <script src="./js/animTimer.js"></script>
+    <script src="./js/sprites.js"></script>
+    <script src="./js/nextAnim.js"></script>
+    <script src="./js/behaviors/bounce.js"></script>
+    <script src="./js/behaviors/pulse.js"></script>
+    <script src="./js/behaviors/cycle.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>
