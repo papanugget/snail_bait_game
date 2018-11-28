@@ -1,6 +1,6 @@
 # Snail Bait
 
-## platforming video game 
+## Platform video game 
 
 Snail Bait is a classic platform game. 
 The protagonist, whom I'll refer to simply as the runner, runs along and jumps between floating platforms that move horizontally. 
@@ -20,3 +20,11 @@ When the runner collides with good guys, your score increases and you are reward
 - CSS3
 - Canvas
 - Vanilla JavaScript
+
+## HTML5 game development best practices
+
+- Pause the game when the window loses focus
+- Implement a countdown when the window regains focus
+- Use CSS3 transitions
+- Detect and react to slowly running games
+- Incorporate social features
