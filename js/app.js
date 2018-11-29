@@ -228,6 +228,7 @@ function drawPlatforms() {
         top;
     
     context.save(); // save context attributes
+    context.translate(-platformOffset, 0);  // scrolls platforms
     // iterate thru platformdata and draw / create a platform using each objects properties
     for(let i = 0; i < platformData.length; i++) {
         pd = platformData[i];
